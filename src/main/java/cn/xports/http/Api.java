@@ -1,0 +1,41 @@
+package cn.xports.http;
+
+public class Api {
+    public static final String ALIPAY = "aisports-api/app-api/alipaySign";
+    public static final String BASE_URL = "aisports-api/";
+    public static final String BASE_URL_COMMUNITY = "xports-community-api/";
+    public static final String CANCEL_PAY = "aisports-api/api/order/cancelPay";
+    public static final String CANCEL_TICKETS = "aisports-api/api/order/cancelTickets";
+    public static final String COUPON_PAY_LIST = "aisports-api/api/pay/getUseCoupons";
+    public static final String GET_AGREEMENT = "aisports-api/api/common/getAgreement";
+    public static final String GET_APP_INFO = "aisports-api/api/app/appInfo";
+    public static final String GET_CENTER_SERVICE = "aisports-api/api/service/centerServices";
+    public static final String GET_FIELD_BOOK_DAY = "aisports-api/api/service/fieldBookDays";
+    public static final String GET_FIELD_BOOK_RULE = "aisports-api/api/field/bookingRules";
+    public static final String GET_FIELD_LIST = "aisports-api/api/field/fieldList";
+    public static final String GET_FIELD_SALE_LIST = "aisports-api/api/field/fieldSaleList";
+    public static final String GET_FIELD_TYPE_LIST = "aisports-api/api/field/fieldTypes";
+    public static final String GET_HOME_AD = "aisports-api/api/app/open/index/center/ad";
+    public static final String GET_HOME_WEATHER = "aisports-web/api/weather/heweather/free/";
+    public static final String GET_ORDER_COUNT = "aisports-api/api/order/userOrderAmount";
+    public static final String GET_ORDER_INFO = "aisports-api/api/order/orderInfo";
+    public static final String GET_PAY_INFO = "aisports-api/api/pay/orderInfo";
+    public static final String GET_PRODUCTS = "aisports-api/api/product/getProducts";
+    public static final String GET_SPORT_COACHING_LIST = "aisports-api/api/fitness/queryFitnessGuides";
+    public static final String GET_STATIC_PARAM_NAME = "api/common/getStaticParamName";
+    public static final String GET_THIRD_ACCOUNT_ID = "aisports-api/api/pay/queryThirdAccountId";
+    public static final String GET_TICKET_INGO = "aisports-api/api/ticket/ticketTypeInfo";
+    public static final String GET_TICKET_SALE_LIST = "aisports-api/api/ticket/ticketSaleList";
+    public static final String GET_TODAY_TICKETS = "aisports-api/api/ticket/todayTickets";
+    public static final String GET_USER_ORDERS = "aisports-api/api/order/userOrders";
+    public static final String GET_VENUE_DETAIL = "aisports-api/api/venue/venueDetail";
+    public static final String GET_VENUE_LIST = "aisports-api/api/venue/venueAndServiceList";
+    public static final String GET_VENUE_PARAMS = "aisports-api/api/param/venueParams";
+    public static final String LOGIN = "aisports-api/api/user/appLogin";
+    public static final String ORDER_FIELD = "aisports-api/api/order/fieldOrder";
+    public static final String ORDER_TICKET = "aisports-api/api/order/ticketOrder";
+    public static final String PAY_CARD_LIST = "aisports-api/api/pay/getPayCardList";
+    public static final String PAY_ORDER = "aisports-api/api/pay/payOrder";
+    public static final String SAVE_TRADE_ATTACH = "aisports-api/api/pay/saveTradeAttach";
+    public static final String WECHAT_PAY = "aisports-api/api/pay/wechatOrder";
+}
